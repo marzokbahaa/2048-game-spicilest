@@ -2,7 +2,7 @@
     'use strict';
 
     const $ = (s, r = document) => r.querySelector(s);
-    const HOME = 'Home.html';
+    const HOME = 'index.html';
 
     document.querySelectorAll('.password-toggle').forEach((btn) => {
         btn.addEventListener('click', () => {
